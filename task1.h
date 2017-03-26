@@ -89,7 +89,7 @@ public:
      * \param binsize размер кармана гистограммы (сколько значений яркости попадает)
      * \return внешний список каналы, внутренний гистограммы по каждому каналу
      */
-    virtual std::vector<std::vector<float>> calcHistogramm(std::string filename,int binsize);
+    virtual std::vector<std::vector<float> > calcHistogramm(std::string filename,int binsize);
 
 
 };

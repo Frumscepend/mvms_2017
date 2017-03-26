@@ -51,7 +51,7 @@ public:
      * \param pattern шаблон
      * \return
      */
-    cv::Mat brief(cv::Mat grayimage,std::vector<cv::Point2i> pts,std::vector<std::pair<cv::Point2i,cv::Point2i>> pattern);
+    cv::Mat brief(cv::Mat grayimage,std::vector<cv::Point2i> pts,std::vector<std::pair<cv::Point2i,cv::Point2i> > pattern);
     /*!
      * \brief bruteForceHamming Реализовать свой Brute-Force Matcher в метрике L2
      * \param query матрица дескрипторов по строкам.
