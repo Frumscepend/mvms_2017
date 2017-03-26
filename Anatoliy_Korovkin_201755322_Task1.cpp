@@ -18,15 +18,13 @@ mvms_2017::Anatoliy_Korovkin_201755322_Task1::drawParallelepiped(std::string fil
         throw std::exception();
     }
 
-    alfa = alfa - 90;
-
     alfa = (float) (alfa * (M_PI / 180));                                       // Calculating radians from degrees
 
-    float x2 = (float) (x + w * cos(alfa));                                     // Calculating parallelepiped points
-    float y2 = (float) (y + w * sin(alfa));
-    float x3 = x2 + h;
+    float x2 = (float) (x + h * cos(alfa));                                     // Calculating parallelepiped points
+    float y2 = (float) (y + h * sin(alfa));
+    float x3 = x2 + w;
     float y3 = y2;
-    float x4 = x + h;
+    float x4 = x + w;
     float y4 = y;
     drawLine(image, cv::Point((int) x, (int) y), cv::Point((int) x2, (int) y2));    // Drawing parallelepiped
     drawLine(image, cv::Point((int) x2, (int) y2), cv::Point((int) x3, (int) y3));

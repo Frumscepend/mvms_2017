@@ -12,7 +12,7 @@ int main(int argc, char *argv[])
     mvms_2017::Task4 x3(true);
     mvms_2017::Task5 x4(true);
     try{
-        x.drawParallelepiped("/home/tolyas/test.png",200,200,50,100,45);
+        x.drawParallelepiped("/home/tolyas/test.png",200,200,50,100,30);
     }catch(std::exception ex){
         std::cout << ex.what();
     }
