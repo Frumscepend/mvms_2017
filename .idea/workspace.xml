@@ -12,17 +12,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="966b7de1-1be1-48d7-81bf-10de679ba1f7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Anatoliy_Korovkin_201755322_Task1.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Anatoliy_Korovkin_201755322_Task1.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.cpp" afterPath="$PROJECT_DIR$/main.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task1.cpp" afterPath="$PROJECT_DIR$/task1.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task1.h" afterPath="$PROJECT_DIR$/task1.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task2.cpp" afterPath="$PROJECT_DIR$/task2.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task3.cpp" afterPath="$PROJECT_DIR$/task3.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task4.cpp" afterPath="$PROJECT_DIR$/task4.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task4.h" afterPath="$PROJECT_DIR$/task4.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task5.cpp" afterPath="$PROJECT_DIR$/task5.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Anatoliy_Korovkin_201755322_Task1.cpp" afterPath="$PROJECT_DIR$/Anatoliy_Korovkin_201755322_Task1.cpp" />
     </list>
     <ignored path="mvms_2017.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -42,11 +33,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Anatoliy_Korovkin_201755322_Task1.cpp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Anatoliy_Korovkin_201755322_Task1.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Anatoliy_Korovkin_201755322_Task1.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="20" column="51" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="80" />
+            <state relative-caret-position="255">
+              <caret line="24" column="104" selection-start-line="24" selection-start-column="95" selection-end-line="24" selection-end-column="104" />
               <folding />
             </state>
           </provider>
@@ -56,7 +47,7 @@
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="252">
-              <caret line="14" column="70" selection-start-line="14" selection-start-column="70" selection-end-line="14" selection-end-column="70" />
+              <caret line="14" column="72" selection-start-line="14" selection-start-column="72" selection-end-line="14" selection-end-column="72" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -64,11 +55,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="task1.h" pinned="false" current-in-tab="false">
+      <file leaf-file-name="task1.h" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/task1.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="82" column="38" selection-start-line="82" selection-start-column="24" selection-end-line="82" selection-end-column="38" />
+            <state relative-caret-position="198">
+              <caret line="71" column="113" selection-start-line="71" selection-start-column="99" selection-end-line="71" selection-end-column="113" />
               <folding />
             </state>
           </provider>
@@ -359,12 +350,12 @@
       <updated>1490453676473</updated>
       <workItem from="1490453678038" duration="826000" />
       <workItem from="1490462983738" duration="630000" />
-      <workItem from="1490495269455" duration="10963000" />
+      <workItem from="1490495269455" duration="15330000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12419000" />
+    <option name="totallyTimeSpent" value="16786000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1055" extended-state="1" />
@@ -637,23 +628,15 @@
         <state relative-caret-position="306">
           <caret line="17" column="57" selection-start-line="17" selection-start-column="57" selection-end-line="17" selection-end-column="57" />
           <folding>
-            <element signature="e#150#168#0" expanded="true" />
+            <element signature="e#150#168#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/task1.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="82" column="38" selection-start-line="82" selection-start-column="24" selection-end-line="82" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
-          <caret line="14" column="70" selection-start-line="14" selection-start-column="70" selection-end-line="14" selection-end-column="70" />
+          <caret line="14" column="72" selection-start-line="14" selection-start-column="72" selection-end-line="14" selection-end-column="72" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
@@ -662,8 +645,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Anatoliy_Korovkin_201755322_Task1.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="20" column="51" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="80" />
+        <state relative-caret-position="255">
+          <caret line="24" column="104" selection-start-line="24" selection-start-column="95" selection-end-line="24" selection-end-column="104" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task1.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="71" column="113" selection-start-line="71" selection-start-column="99" selection-end-line="71" selection-end-column="113" />
           <folding />
         </state>
       </provider>
