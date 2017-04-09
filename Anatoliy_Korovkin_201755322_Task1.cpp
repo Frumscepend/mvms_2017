@@ -6,6 +6,8 @@
 
 mvms_2017::Anatoliy_Korovkin_201755322_Task1::Anatoliy_Korovkin_201755322_Task1(bool verbose) : Task1(verbose) {}
 
+const double PI = 3.14159265358979323846;
+
 cv::Mat
 mvms_2017::Anatoliy_Korovkin_201755322_Task1::drawParallelepiped(std::string filename, float x, float y, float w,
                                                                  float h, float alfa) {
@@ -18,7 +20,7 @@ mvms_2017::Anatoliy_Korovkin_201755322_Task1::drawParallelepiped(std::string fil
         throw std::exception();
     }
 
-    alfa = (float) (alfa * (M_PI / 180));                                       // Calculating radians from degrees
+    alfa = (float) (alfa * (PI / 180));                                       // Calculating radians from degrees
 
     float x2 = (float) (x + h * cos(alfa));                                     // Calculating parallelepiped points
     float y2 = (float) (y + h * sin(alfa));
