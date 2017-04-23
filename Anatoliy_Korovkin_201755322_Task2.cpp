@@ -16,7 +16,7 @@ mvms_2017::Anatoliy_Korovkin_201755322_Task2::addnoises(cv::Mat image,float sigm
         uchar *ptr = (uchar *) ((&ipl_img)->imageData + y * (&ipl_img)->widthStep);
         for (int x = 0; x < (&ipl_img)->width; x++) {
             if (cvRandInt(&rng) % 100 >= 50) {
-                ptr[3 * x] = (uchar) (cvRandInt(&rng) % 255 - (int)sigma);
+                ptr[x] = (uchar) (cvRandInt(&rng) % 255 - (int)sigma);
             }
         }
     }
@@ -26,13 +26,13 @@ mvms_2017::Anatoliy_Korovkin_201755322_Task2::addnoises(cv::Mat image,float sigm
             if (cvRandInt(&rng) % 100 >= solt_prob) {
                 int rand = cvRandInt(&rng) % 255;
                 if (rand >= 128) {
-                    ptr[3 * x] = 255;
+                    ptr[x] = 255;
                 }
             }
             if (cvRandInt(&rng) % 100 >= papper_prob) {
                 int rand = cvRandInt(&rng) % 255;
                 if (rand < 128) {
-                    ptr[3 * x] = 0;
+                    ptr[x] = 0;
                 }
             }
         }
