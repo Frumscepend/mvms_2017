@@ -19,7 +19,9 @@ set(SOURCE_FILES
     task5.h
         Anatoliy_Korovkin_201755322_Task1.cpp Anatoliy_Korovkin_201755322_Task1.h
         Anatoliy_Korovkin_201755322_Task2.cpp Anatoliy_Korovkin_201755322_Task2.h
-        Anatoliy_Korovkin_201755322_Task3.cpp Anatoliy_Korovkin_201755322_Task3.h)
+        Anatoliy_Korovkin_201755322_Task3.cpp Anatoliy_Korovkin_201755322_Task3.h
+        Anatoliy_Korovkin_201755322_Task4.cpp Anatoliy_Korovkin_201755322_Task4.h
+        Anatoliy_Korovkin_201755322_Task5.cpp Anatoliy_Korovkin_201755322_Task5.h)
 
 add_executable(mvms_2017 ${SOURCE_FILES})
 
