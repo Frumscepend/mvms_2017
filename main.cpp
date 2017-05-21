@@ -1,37 +1,24 @@
+#include "task1.h"
 #include "task2.h"
 #include "task3.h"
 #include "task4.h"
 #include "task5.h"
-#include "Anatoliy_Korovkin_201755322_Task1.h"
-#include "Anatoliy_Korovkin_201755322_Task2.h"
-#include "Anatoliy_Korovkin_201755322_Task3.h"
-#include "Anatoliy_Korovkin_201755322_Task4.h"
-#include "Anatoliy_Korovkin_201755322_Task5.h"
+#include "Alexandr_Kucherov_201735343_Task5.h"
 
 int main(int argc, char *argv[])
 {
-    mvms_2017::Anatoliy_Korovkin_201755322_Task1 x(true);
-    mvms_2017::Anatoliy_Korovkin_201755322_Task2 x1(true);
-    mvms_2017::Anatoliy_Korovkin_201755322_Task3 x2(true);
-    mvms_2017::Anatoliy_Korovkin_201755322_Task4 x3(true);
-    mvms_2017::Anatoliy_Korovkin_201755322_Task5 x4(true);
+    mvms_2017::Alexandr_Kucherov_201735343_Task5 x5(true);
 
-    cv::Point3f pointS1;
-    pointS1.x = 1;
-    pointS1.y = 0;
-    pointS1.z = 0;
-    cv::Point3f pointE1;
-    pointE1.x = 2;
-    pointE1.y = 0;
-    pointE1.z = 0;
-    cv::Point3f pointS2;
-    pointS2.x = 3;
-    pointS2.y = 1;
-    pointS2.z = 0;
-    cv::Point3f pointE2;
-    pointE2.x = 7;
-    pointE2.y = 0;
-    pointE2.z = 0;
-    std::cout<<x4.raysIntersection(pointS1, pointE1, pointS2, pointE2);
+    cv::Mat image;
+
+    double k1 = -0.11839989180635836;
+    double k2 = 0.25425420873955445;
+
+    double r2 = 0.0013269901775205413;
+    double r4 = 0.0015787467748277866;
+
+
+    std::cout<<x5.correctLensDistorsions(image, r2, r4, k1, k2);
+    std::cout<<x5.Undistort(&x5);
     return 0;
 }
